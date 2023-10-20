@@ -1,0 +1,11 @@
+= AWS: S3
+
+This module demonstrates the basics of using and testing the AWS Simple Storage Service. It contains a simple service
+that allows you to store and fetch book cover images. You can interact with it locally through IntelliJ's
+link:../s3/http/S3.http[http plugin].
+
+The module includes examples for how to:
+
+- Write a reasonable abstraction layer for the S3 sdk
+- Locally run an S3 instance with your application thanks to with link:https://localstack.cloud/[LocalStack]
+- Write tests which use a locally running S3 instead of a simple mock
