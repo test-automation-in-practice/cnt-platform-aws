@@ -1,0 +1,10 @@
+= Cloud Native Testing: AWS Technologies
+
+This repository contains example code for AWS-based technologies and how to efficiently test them, without necessarily
+having access to an actual AWS environment.
+
+All examples are based on _our_ experience in different actual small and large scale projects.
+
+== Examples
+
+** link:examples/s3/[S3]
