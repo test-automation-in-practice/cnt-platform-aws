@@ -1,0 +1,7 @@
+#file: noinspection SpringBootApplicationYaml
+example:
+  s3:
+    bucket-name: "example-bucket"
+    books:
+      clean-code: "73a3a94e-9ec7-4c35-82ff-9235fa4a2a86"
+      lord-of-the-rings: "81abeacb-9850-4691-94b8-2fff9bb7b1a7"

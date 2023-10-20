@@ -1,0 +1,19 @@
+### Get Clean Code Cover
+GET localhost:8080/books/{{clean-code}}/cover
+
+### Get Lord of the Rings Cover
+GET localhost:8080/books/{{lord-of-the-rings}}/cover
+
+### Get Mythical Man Month Cover
+### Will fail at first because the cover has to be added by the PUT request below.
+GET localhost:8080/books/{{mythical-man-moth}}/cover
+
+### Put Mythical Man Month Cover
+PUT localhost:8080/books/{{mythical-man-moth}}/cover
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="cover"; filename="mythical-man-month.jpg"
+Content-Type: image/jpeg
+
+< ../src/main/resources/bookcovers/mythical-man-month.jpg
